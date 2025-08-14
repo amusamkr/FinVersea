@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Info Form</title>
+  <style>
+    body {
+      background-color: #000;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 30px;
+    }
+    h2 {
+      margin-bottom: 5px;
+    }
+    small {
+      color: grey;
+      margin-bottom: 20px;
+    }
+    form {
+      max-width: 400px;
+      width: 100%;
+    }
+    .progress {
+      display: flex;
+      justify-content: space-between;
+      margin: 20px 0;
+      color: grey;
+    }
+    input, select {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background: #111;
+      border: 1px solid #333;
+      color: white;
+      border-radius: 5px;
+    }
+    .row {
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      background: linear-gradient(to right, #99ff99, #00cc66);
+      padding: 10px;
+      width: 100%;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    .draft {
+      text-align: center;
+      margin-top: 10px;
+      color: gray;
+      font-size: 14px;
+ cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h2>Almost Done! Tell Us More About You</h2>
+  <small>Your Information is Safe With Us. 100% Secure</small>
+
+  <div class="progress">
+    <div style="color:#0f0;">● Basic Information</div>
+    <div>○ Contact Information</div>
+    <div>○ KYC</div>
+  </div>
+
+  <form>
+    <div class="row">
+      <input type="text" placeholder="First Name">
+      <input type="text" placeholder="Last Name">
+    </div>
+    <div class="row">
+        <p>please Select Your Date of Birth</p>
+      <input type="date" placeholder="date of birth">
+     
+    </div>
+    <select>
+        <option>Select Your Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Rather Not Say</option>
+    </select>
+
+    <div style="text-align:center; margin: 20px 0;">
+  
+<label for="profilePic">Upload Profile Picture:</label>
+<input type="file" id="profilePic" name="profilePic" accept="image/*">
+
+    </div>
+
+    <div class="row">
+     
+<select id="country" name="country">
+  <option value="">Select your country</option>
+  <option value="Nigeria">Nigeria</option>
+  <option value="Ghana">Ghana</option>
+  <option value="Kenya">Kenya</option>
+  <option value="South Africa">South Africa</option>
+  <option value="India">India</option>
+  <option value="USA">United States</option>
+  <option value="UK">United Kingdom</option>
+  <option value="Canada">Canada</option>
+  <option value="Germany">Germany</option>
+  <option value="France">France</option>
+</select>
+
+
+<select id="state" name="state">
+  <option value="">Select your state</option>
+  <option value="Abia">Abia</option>
+  <option value="Adamawa">Adamawa</option>
+  <option value="Akwa Ibom">Akwa Ibom</option>
+  <option value="Anambra">Anambra</option>
+  <option value="Bauchi">Bauchi</option>
+  <option value="Bayelsa">Bayelsa</option>
+  <option value="Benue">Benue</option>
+  <option value="Borno">Borno</option>
+  <option value="Cross River">Cross River</option>
+  <option value="Delta">Delta</option>
+  <option value="Ebonyi">Ebonyi</option>
+  <option value="Edo">Edo</option>
+  <option value="Ekiti">Ekiti</option>
+  <option value="Enugu">Enugu</option>
+  <option value="FCT">FCT</option>
+  <option value="Gombe">Gombe</option>
+  <option value="Imo">Imo</option>
+  <option value="Jigawa">Jigawa</option>
+  <option value="Kaduna">Kaduna</option>
+  <option value="Kano">Kano</option>
+  <option value="Katsina">Katsina</option>
+  <option value="Kebbi">Kebbi</option>
+  <option value="Kogi">Kogi</option>
+  <option value="Kwara">Kwara</option>
+  <option value="Lagos">Lagos</option>
+  <option value="Nasarawa">Nasarawa</option>
+  <option value="Niger">Niger</option>
+ <option value="Ogun">Ogun</option>
+  <option value="Ondo">Ondo</option>
+  <option value="Osun">Osun</option>
+  <option value="Oyo">Oyo</option>
+  <option value="Plateau">Plateau</option>
+  <option value="Rivers">Rivers</option>
+  <option value="Sokoto">Sokoto</option>
+  <option value="Taraba">Taraba</option>
+  <option value="Yobe">Yobe</option>
+  <option value="Zamfara">Zamfara</option>
+</select>
+  </div>
+    <input type="text" placeholder="Street Name">
+</form>
+ <a href="second.html"><button class="btn">Next</button></a>
+    <div class="draft">Save as Draft</div>
+  
+</body>
+</html>

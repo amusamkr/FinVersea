@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FinVerse Sign Up</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      height: 100vh;
+      background-color: #000;
+      color: white;
+    }
+
+    .container {
+      display: flex;
+      flex: 1;
+    }
+
+    .form-section {
+      width: 50%;
+      padding: 60px;
+    }
+
+    .form-section h1 {
+      margin-bottom: 10px;
+    }
+
+    .form-section input, .form-section button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 6px;
+    }
+
+    .form-section input {
+      background-color: #1f1f1f;
+      color: white;
+    }
+
+    .google-btn {
+      background-color: #1f1f1f;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+    }
+
+    .signup-btn {
+      background: linear-gradient(to right, #00ff90, #78ff67);
+      color: black;
+      font-weight: bold;
+      cursor: pointer;
+ }
+
+    .right-side {
+      width: 50%;
+      background: url('https://your-image-link-here.jpg') no-repeat center center/cover;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+
+    .checkbox-container input {
+      width: auto;
+      margin-right: 8px;
+    }
+
+    .name-inputs {
+      display: flex;
+      gap: 10px;
+    }
+
+    .name-inputs input {
+      width: 100%;
+    }
+
+    a {
+      color: #78ff67;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form-section">
+      <h1>FinVerse</h1>
+      <h2>Sign up</h2>
+      <p>Enter details to create your account</p>
+
+      <button class="google-btn">Sign up with Google</button>
+      <p>Or Sign Up with Email</p>
+
+      <div class="name-inputs">
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+      </div>
+
+      <input type="email" placeholder="Email" />
+      <input type="password" placeholder="Min. 8 Characters" />
+      <input type="password" placeholder="Retype Password" />
+
+      <div class="checkbox-container">
+        <input type="checkbox" id="remember" />
+        <label for="remember">Remember Me</label>
+      </div>
+ <a href="first.html"><button class="signup-btn">Sign Up</button></a>
+      <p>Already have an account? <a href="#">Sign in</a></p>
+    </div>
+
+    <div class="right-side">
+      <!-- Background image will appear here -->
+    </div>
+  </div>
+</body>
+</html>
+<img src="bb.jpg" alt="image">
